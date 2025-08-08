@@ -6,4 +6,4 @@ COPY config.json .
 
 EXPOSE 18443
 
-CMD ["sing-box", "run", "-D", "/app"]
+CMD ["run", "-D", "/app"]
