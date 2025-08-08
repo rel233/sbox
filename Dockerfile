@@ -4,6 +4,6 @@ WORKDIR /app
 
 COPY config.json .
 
-EXPOSE 3000
+EXPOSE 18443
 
-CMD ["/bin/sh", "-c", "sing-box run -D /app"]
+CMD ["sing-box", "run", "-D", "/app"]
