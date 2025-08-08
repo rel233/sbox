@@ -4,6 +4,6 @@ WORKDIR /app
 
 COPY config.json .
 
-EXPOSE 18443
+EXPOSE 31000
 
 CMD ["run", "-D", "/app"]
