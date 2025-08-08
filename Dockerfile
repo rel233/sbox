@@ -6,4 +6,4 @@ COPY config.json .
 
 EXPOSE 3000
 
-CMD ["sh", "-c", "sing-box run -D /app"]
+CMD ["/bin/sh", "-c", "sing-box run -D /app"]

@@ -5,7 +5,7 @@
       "type": "trojan",
       "tag": "h2mux",
       "listen": "::",
-      "listen_port": 3000,
+      "listen_port": 18443,
       "users": [{ "password": "123@@@" }],
       "multiplex": { "enabled": true },
       "transport": { "type": "httpupgrade" },
